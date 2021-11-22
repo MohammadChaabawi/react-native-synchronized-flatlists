@@ -1,0 +1,1034 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* contactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* contactsTests.m */; };
+		00F878B0C940477CB5632131 /* Erik-Nason.png in Resources */ = {isa = PBXBuildFile; fileRef = EF68B83DA44F4EE7B6546FED /* Erik-Nason.png */; };
+		03F259ED46344B18899B5DFC /* Colin Ballinger@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48548F65ECEE411A9F6EB13C /* Colin Ballinger@2x.png */; };
+		05C1B72B08B44287A1E5EAFC /* Erik Nason@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07B025F52DAF4A4D9C49A356 /* Erik Nason@2x.png */; };
+		06C98192B1954310845674B9 /* Mauricio-August.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EAF031869644BECAFA49856 /* Mauricio-August.png */; };
+		0B3D6BE1379040F6B92F5A7A /* Ashley Mc Carthy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4127F1A3AA8412598A74591 /* Ashley Mc Carthy@2x.png */; };
+		13A667989ADF4095A5D17549 /* Henry Brill@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CFA7B0C6A234FA8B3A9E411 /* Henry Brill@3x.png */; };
+		13A81C38ECF94C6CACAA797E /* Lydia-Bauer.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E20E8E695249F4B9404771 /* Lydia-Bauer.png */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		15B921DF13EF494A9941670A /* Wanda Howard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D6C58AA931421C841B99F4 /* Wanda Howard@2x.png */; };
+		16BB9384B3955976A921A991 /* libPods-contacts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 592AC17FCF7D200D46576B4A /* libPods-contacts.a */; };
+		1D28FA2C87864D569FDF25EA /* Celeste Burton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA61B10967DE4928921A6B9B /* Celeste Burton@2x.png */; };
+		1E2B7F25E6364413BEF872CC /* Amanda Brady@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BE499584E374A1B9AB1E15B /* Amanda Brady@2x.png */; };
+		1FD9EC6AE2094284ACC49CF3 /* Carole Poland@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A172ED3E474424B633F3E8 /* Carole Poland@2x.png */; };
+		202CB1E6948A4795825AFA3E /* Katri-Ahokas.png in Resources */ = {isa = PBXBuildFile; fileRef = FD914F855C0D47C986DEC8BB /* Katri-Ahokas.png */; };
+		22764915E01B42249AF0A2E0 /* Isaac-Fielder.png in Resources */ = {isa = PBXBuildFile; fileRef = B743B065CD89492FBEF03FBC /* Isaac-Fielder.png */; };
+		2527C4B862564343BD5730E3 /* Carlos Slattery@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B94D0C11DD14AECA4C596E5 /* Carlos Slattery@3x.png */; };
+		26C9763338F54271B0F798C2 /* Celeste-Burton.png in Resources */ = {isa = PBXBuildFile; fileRef = 19A7E01F86A44C89927FDE09 /* Celeste-Burton.png */; };
+		2905BD32B667471B875796EC /* Mauricio August@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B36DFC7DCD64CAB8E18AFBC /* Mauricio August@3x.png */; };
+		2AC557934887405A9BD9BA2C /* Tim-Deboer.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B4CCDE0F405435F983C11CC /* Tim-Deboer.png */; };
+		2AF9E90BF5CB4EF58B8F92C0 /* Elvia Atkins@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3DDB55115DD46DD908444F3 /* Elvia Atkins@2x.png */; };
+		2F412500A55944978C3FFF28 /* Ashley-Mc-Carthy.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D1E65DD887B499B814F48E9 /* Ashley-Mc-Carthy.png */; };
+		2FC1182EAE2A4E22A37E64AF /* Kat larsson@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F40E3A28D7484879AC7A6400 /* Kat larsson@3x.png */; };
+		341F8E6163324481BAFA9E7A /* Mauricio August@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56CEAE64AC604E72A4321B77 /* Mauricio August@2x.png */; };
+		35026DB46A284E849DB63238 /* Robin Counts@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFE2D876A1E64C69BA7889C6 /* Robin Counts@2x.png */; };
+		3965EC69991F42FD905A4C54 /* Elvia-Atkins.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F52567DC1D34B6DB9992E1C /* Elvia-Atkins.png */; };
+		3A20B34CB0634303B41E3A6E /* Amanda-Brady.png in Resources */ = {isa = PBXBuildFile; fileRef = 23714F2F47E848E182DFD757 /* Amanda-Brady.png */; };
+		42CB4673B3F84EAEBB2F8164 /* Colin Ballinger@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D9BD31EAB945ADA47F356D /* Colin Ballinger@3x.png */; };
+		43173B9EDA484C04A212E559 /* Kristin-Patterson.png in Resources */ = {isa = PBXBuildFile; fileRef = CC44D50B57FD4070B1104731 /* Kristin-Patterson.png */; };
+		4376426C052C418693909647 /* Cecil Folk@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67363D168DC746629E712FAD /* Cecil Folk@3x.png */; };
+		44210EEF966F4D849D617907 /* Mona Kane@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6A26CEC2A54076AFA34ECB /* Mona Kane@2x.png */; };
+		4581C1F8F4D641D4903ADA3F /* Elliot Woodward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F6ED5C8FE3B4155B0200CEE /* Elliot Woodward@2x.png */; };
+		47DA9465F893427DB0337563 /* Isaac Fielder@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BEB624C59EF4748A96603C4 /* Isaac Fielder@3x.png */; };
+		4BB79CC0B6744AC89B37E1DB /* Allan Munger@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0986BF8F8E70497E9EDEA2FE /* Allan Munger@3x.png */; };
+		4DA82E39ACB04A4FB038A935 /* Carlos Slattery@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E483A6D8A4BD4BC28A70672F /* Carlos Slattery@2x.png */; };
+		4F6A109AA7B94C8C8C191E49 /* Robin-Counts.png in Resources */ = {isa = PBXBuildFile; fileRef = CCE3B95D37D24059A9DBAA4D /* Robin-Counts.png */; };
+		4FFE9C84FABD4C349599170A /* Carlos-Slattery.png in Resources */ = {isa = PBXBuildFile; fileRef = 9673F14A21A24485B4B7FF3D /* Carlos-Slattery.png */; };
+		50D9CE3388B4D911DC110F4B /* libPods-contacts-contactsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D60D2117BA91BBF94B459B /* libPods-contacts-contactsTests.a */; };
+		52D2413E48044593A637B2A3 /* Mona-Kane.png in Resources */ = {isa = PBXBuildFile; fileRef = C010891E12F74A47BE7B0263 /* Mona-Kane.png */; };
+		59D118C06C954273A8DA56DB /* Celeste Burton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DCCFA396ED64834885B8144 /* Celeste Burton@3x.png */; };
+		5A71E57F77B445549A5C41A9 /* Amanda Brady@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3021FC95D7D3449C9D6E9163 /* Amanda Brady@3x.png */; };
+		5C596F0637C54AD7B0116310 /* Lydia Bauer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B16547E10824D3B92242278 /* Lydia Bauer@2x.png */; };
+		5D935698EDAD45E486A681FE /* Kevin Sturgis@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7125EF72CD01439996CC07EC /* Kevin Sturgis@3x.png */; };
+		62E0D9115F144DCC9F18CFDD /* Robin Counts@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D55232A2E4948B08B8CF24B /* Robin Counts@3x.png */; };
+		62F39EA392F04C87B891870C /* Kevin Sturgis@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE07B81846D94461B4569692 /* Kevin Sturgis@2x.png */; };
+		636B32D87E43429A9F7E208D /* Carole-Poland.png in Resources */ = {isa = PBXBuildFile; fileRef = 622EA51BA3664C52B8E05A18 /* Carole-Poland.png */; };
+		668C4CAEF72E46A6994C9FEA /* Daisy Phillips@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 865B4481E58C44F39A460BBF /* Daisy Phillips@3x.png */; };
+		6894859290AA4759B2E073EB /* Tim Deboer@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11CABFDE590242DBA93AE6F4 /* Tim Deboer@3x.png */; };
+		6A142E08F5464A3A8C3852D7 /* Colin-Ballinger.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EF40141C169446691DBBDDC /* Colin-Ballinger.png */; };
+		6ABD9FBC100B48E4AA5260CF /* Cecil Folk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F56B8E8B54E84ED3ADD0F77F /* Cecil Folk@2x.png */; };
+		6FC06E5A2EB04E018EDB5D60 /* Kevin-Sturgis.png in Resources */ = {isa = PBXBuildFile; fileRef = 8761BB90EF64469E92A2C9B7 /* Kevin-Sturgis.png */; };
+		73291269453A44FA8FDE9FB7 /* Kristin Patterson@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 445397381961461BBEF20C40 /* Kristin Patterson@2x.png */; };
+		7BD44FD8CED0467186A75825 /* Wanda Howard@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8ADD30247C84A6E9757BF3A /* Wanda Howard@3x.png */; };
+		7C4114DC013749839B0933BD /* Charlotte Waltson@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D144DD1C58B4475A1794667 /* Charlotte Waltson@3x.png */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		851956A016014819B35A11EC /* Kat larsson@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEF778620DB4221A1BD8AA3 /* Kat larsson@2x.png */; };
+		8894424517F648F3B3D930CE /* Johnie McConnell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B36003ABB55C42FA9415D3F6 /* Johnie McConnell@2x.png */; };
+		8B6B852A0CE841D892DF365A /* Cecil-Folk.png in Resources */ = {isa = PBXBuildFile; fileRef = 771A84EC8802403B892A63AC /* Cecil-Folk.png */; };
+		90ABFCEE19C3476784E1F7A7 /* Miguel-Garcia.png in Resources */ = {isa = PBXBuildFile; fileRef = A6EADFDD4BA649B78706677E /* Miguel-Garcia.png */; };
+		A078B949E1204D7BB6D68783 /* Allan Munger@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 191B75B4B82B44E0B5583F42 /* Allan Munger@2x.png */; };
+		A0D199135A6143E1A3B2D53E /* Johnie McConnell@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97608ED9BC954541B4852FD5 /* Johnie McConnell@3x.png */; };
+		A5B80C4D66B24A209EEDB864 /* Elliot-Woodward.png in Resources */ = {isa = PBXBuildFile; fileRef = E9418AC70B3143EEA8474398 /* Elliot-Woodward.png */; };
+		A61C7428106E43E1A81EF520 /* Erik Nason@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EC6355AB34E491A822F4DBC /* Erik Nason@3x.png */; };
+		AEA4061C01F84A66BE9870E0 /* Charlotte Waltson@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B4AD5B3E4846FEAF2AA56F /* Charlotte Waltson@2x.png */; };
+		B0758A3E73F34A8F8924B951 /* Tim Deboer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A1AE788B6E4992B1781EE4 /* Tim Deboer@2x.png */; };
+		B2A182058CCA44A69368AE62 /* Mona Kane@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B16B9EAD60B44C09F85FF5E /* Mona Kane@3x.png */; };
+		B7B8F7ACD9C94A2EAB1DF874 /* Kristin Patterson@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C3DB390D4DA4FBF9EAAEC8C /* Kristin Patterson@3x.png */; };
+		C3AA4A9419954F3AB86816BB /* Charlotte-Waltson.png in Resources */ = {isa = PBXBuildFile; fileRef = 267C0B459C6D44CB8849D003 /* Charlotte-Waltson.png */; };
+		C48E0274C000461E99F72171 /* Elvia Atkins@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55266397DE654B1580453DDB /* Elvia Atkins@3x.png */; };
+		C61831BCB1B74AAEA8214D75 /* Daisy Phillips@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A717C765E5E4C03A99232C9 /* Daisy Phillips@2x.png */; };
+		C9445890C1C447D2A402E087 /* Robert Tolbert@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7207C498F57A4FD3B8B28AAD /* Robert Tolbert@3x.png */; };
+		C9AC1B5FF695483A9D1A87CB /* Kat-larsson.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FCFD6F1CDF54A5D8F52C230 /* Kat-larsson.png */; };
+		CA02F96CD0864CD4911FA60D /* Daisy-Phillips.png in Resources */ = {isa = PBXBuildFile; fileRef = F3F827667B1C4A7E8E4CAD19 /* Daisy-Phillips.png */; };
+		D39A3A7A7DD14E7A95681D5B /* Katri Ahokas@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A967DC8C9CE541208F4506E8 /* Katri Ahokas@3x.png */; };
+		D8D4E67617234D19B32E0878 /* Johnie-McConnell.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC70024F4ED43AFACCCC8A6 /* Johnie-McConnell.png */; };
+		DA9DDB00DC594330B6866450 /* Wanda-Howard.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B07027CE2C940E4B63D89F4 /* Wanda-Howard.png */; };
+		DBE9640F789C41B2B5327674 /* Isaac Fielder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4EFAFBC40414E5892CDEEAD /* Isaac Fielder@2x.png */; };
+		DE481E2EA14C4AFC9D0A2371 /* Ashley Mc Carthy@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF30966DD47F44A3A0DC3C65 /* Ashley Mc Carthy@3x.png */; };
+		E0BFE984232046ACB310B779 /* Elliot Woodward@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 405C3C07BFC14A79ACEC92B9 /* Elliot Woodward@3x.png */; };
+		E57F55431170437CB859C354 /* Robert Tolbert@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F75F8637CE93427E974AC702 /* Robert Tolbert@2x.png */; };
+		EBD153C8A89A4B47AAB6C3A1 /* Miguel Garcia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0F6BC290594F90B15E2688 /* Miguel Garcia@2x.png */; };
+		ECCBA6740D7E47D3A5E1F80B /* Allan-Munger.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D8001B1CCE3462B82F1FE22 /* Allan-Munger.png */; };
+		F0F9656E9FF5404987E94175 /* Henry Brill@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31DCCF2BA74D4891A9539107 /* Henry Brill@2x.png */; };
+		F4626C39F9B4493BA64E649C /* Katri Ahokas@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33599DF4AC984EEE8235FD7F /* Katri Ahokas@2x.png */; };
+		F5BA2C58D8384CC1AD255B92 /* Miguel Garcia@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC536B9339AA49AD80D92CD1 /* Miguel Garcia@3x.png */; };
+		F5D96B247389468A94F3E0CE /* Robert-Tolbert.png in Resources */ = {isa = PBXBuildFile; fileRef = FF2022D11D074DC4A29E10A3 /* Robert-Tolbert.png */; };
+		F8E5FBDEF56D4D7892C6782D /* Henry-Brill.png in Resources */ = {isa = PBXBuildFile; fileRef = E59C325CE486479199B42DAF /* Henry-Brill.png */; };
+		FAB2F067B14B4C138574C75C /* Lydia Bauer@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07A0F14B41A24FD58FB13501 /* Lydia Bauer@3x.png */; };
+		FB3F5713C40F49CD9F212431 /* Carole Poland@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A86CE4D2F047B9973D9C39 /* Carole Poland@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = contacts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* contactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = contactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* contactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = contactsTests.m; sourceTree = "<group>"; };
+		01E20E8E695249F4B9404771 /* Lydia-Bauer.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lydia-Bauer.png"; path = "../src/assets/images/avatars/Lydia-Bauer.png"; sourceTree = "<group>"; };
+		07A0F14B41A24FD58FB13501 /* Lydia Bauer@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lydia Bauer@3x.png"; path = "../src/assets/images/avatars/Lydia Bauer@3x.png"; sourceTree = "<group>"; };
+		07B025F52DAF4A4D9C49A356 /* Erik Nason@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Erik Nason@2x.png"; path = "../src/assets/images/avatars/Erik Nason@2x.png"; sourceTree = "<group>"; };
+		0986BF8F8E70497E9EDEA2FE /* Allan Munger@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Allan Munger@3x.png"; path = "../src/assets/images/avatars/Allan Munger@3x.png"; sourceTree = "<group>"; };
+		0D8001B1CCE3462B82F1FE22 /* Allan-Munger.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Allan-Munger.png"; path = "../src/assets/images/avatars/Allan-Munger.png"; sourceTree = "<group>"; };
+		11CABFDE590242DBA93AE6F4 /* Tim Deboer@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Tim Deboer@3x.png"; path = "../src/assets/images/avatars/Tim Deboer@3x.png"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = contacts/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = contacts/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = contacts/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = contacts/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = contacts/main.m; sourceTree = "<group>"; };
+		17B4AD5B3E4846FEAF2AA56F /* Charlotte Waltson@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Charlotte Waltson@2x.png"; path = "../src/assets/images/avatars/Charlotte Waltson@2x.png"; sourceTree = "<group>"; };
+		191B75B4B82B44E0B5583F42 /* Allan Munger@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Allan Munger@2x.png"; path = "../src/assets/images/avatars/Allan Munger@2x.png"; sourceTree = "<group>"; };
+		19A7E01F86A44C89927FDE09 /* Celeste-Burton.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Celeste-Burton.png"; path = "../src/assets/images/avatars/Celeste-Burton.png"; sourceTree = "<group>"; };
+		1B07027CE2C940E4B63D89F4 /* Wanda-Howard.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Wanda-Howard.png"; path = "../src/assets/images/avatars/Wanda-Howard.png"; sourceTree = "<group>"; };
+		1B36DFC7DCD64CAB8E18AFBC /* Mauricio August@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mauricio August@3x.png"; path = "../src/assets/images/avatars/Mauricio August@3x.png"; sourceTree = "<group>"; };
+		1EF40141C169446691DBBDDC /* Colin-Ballinger.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Colin-Ballinger.png"; path = "../src/assets/images/avatars/Colin-Ballinger.png"; sourceTree = "<group>"; };
+		23714F2F47E848E182DFD757 /* Amanda-Brady.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Amanda-Brady.png"; path = "../src/assets/images/avatars/Amanda-Brady.png"; sourceTree = "<group>"; };
+		267C0B459C6D44CB8849D003 /* Charlotte-Waltson.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Charlotte-Waltson.png"; path = "../src/assets/images/avatars/Charlotte-Waltson.png"; sourceTree = "<group>"; };
+		27D60D2117BA91BBF94B459B /* libPods-contacts-contactsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-contacts-contactsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE499584E374A1B9AB1E15B /* Amanda Brady@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Amanda Brady@2x.png"; path = "../src/assets/images/avatars/Amanda Brady@2x.png"; sourceTree = "<group>"; };
+		2C3DB390D4DA4FBF9EAAEC8C /* Kristin Patterson@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kristin Patterson@3x.png"; path = "../src/assets/images/avatars/Kristin Patterson@3x.png"; sourceTree = "<group>"; };
+		2CFA7B0C6A234FA8B3A9E411 /* Henry Brill@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Henry Brill@3x.png"; path = "../src/assets/images/avatars/Henry Brill@3x.png"; sourceTree = "<group>"; };
+		2D1E65DD887B499B814F48E9 /* Ashley-Mc-Carthy.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ashley-Mc-Carthy.png"; path = "../src/assets/images/avatars/Ashley-Mc-Carthy.png"; sourceTree = "<group>"; };
+		3021FC95D7D3449C9D6E9163 /* Amanda Brady@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Amanda Brady@3x.png"; path = "../src/assets/images/avatars/Amanda Brady@3x.png"; sourceTree = "<group>"; };
+		31DCCF2BA74D4891A9539107 /* Henry Brill@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Henry Brill@2x.png"; path = "../src/assets/images/avatars/Henry Brill@2x.png"; sourceTree = "<group>"; };
+		33599DF4AC984EEE8235FD7F /* Katri Ahokas@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Katri Ahokas@2x.png"; path = "../src/assets/images/avatars/Katri Ahokas@2x.png"; sourceTree = "<group>"; };
+		37377FFA16EEF7814197A029 /* Pods-contacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-contacts.release.xcconfig"; path = "Target Support Files/Pods-contacts/Pods-contacts.release.xcconfig"; sourceTree = "<group>"; };
+		39A1AE788B6E4992B1781EE4 /* Tim Deboer@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Tim Deboer@2x.png"; path = "../src/assets/images/avatars/Tim Deboer@2x.png"; sourceTree = "<group>"; };
+		3BEB624C59EF4748A96603C4 /* Isaac Fielder@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Isaac Fielder@3x.png"; path = "../src/assets/images/avatars/Isaac Fielder@3x.png"; sourceTree = "<group>"; };
+		3F52567DC1D34B6DB9992E1C /* Elvia-Atkins.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Elvia-Atkins.png"; path = "../src/assets/images/avatars/Elvia-Atkins.png"; sourceTree = "<group>"; };
+		3FEF778620DB4221A1BD8AA3 /* Kat larsson@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kat larsson@2x.png"; path = "../src/assets/images/avatars/Kat larsson@2x.png"; sourceTree = "<group>"; };
+		405C3C07BFC14A79ACEC92B9 /* Elliot Woodward@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Elliot Woodward@3x.png"; path = "../src/assets/images/avatars/Elliot Woodward@3x.png"; sourceTree = "<group>"; };
+		445397381961461BBEF20C40 /* Kristin Patterson@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kristin Patterson@2x.png"; path = "../src/assets/images/avatars/Kristin Patterson@2x.png"; sourceTree = "<group>"; };
+		48548F65ECEE411A9F6EB13C /* Colin Ballinger@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Colin Ballinger@2x.png"; path = "../src/assets/images/avatars/Colin Ballinger@2x.png"; sourceTree = "<group>"; };
+		4B16B9EAD60B44C09F85FF5E /* Mona Kane@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mona Kane@3x.png"; path = "../src/assets/images/avatars/Mona Kane@3x.png"; sourceTree = "<group>"; };
+		4DCCFA396ED64834885B8144 /* Celeste Burton@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Celeste Burton@3x.png"; path = "../src/assets/images/avatars/Celeste Burton@3x.png"; sourceTree = "<group>"; };
+		4EAF031869644BECAFA49856 /* Mauricio-August.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mauricio-August.png"; path = "../src/assets/images/avatars/Mauricio-August.png"; sourceTree = "<group>"; };
+		4F6ED5C8FE3B4155B0200CEE /* Elliot Woodward@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Elliot Woodward@2x.png"; path = "../src/assets/images/avatars/Elliot Woodward@2x.png"; sourceTree = "<group>"; };
+		50A86CE4D2F047B9973D9C39 /* Carole Poland@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Carole Poland@3x.png"; path = "../src/assets/images/avatars/Carole Poland@3x.png"; sourceTree = "<group>"; };
+		55266397DE654B1580453DDB /* Elvia Atkins@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Elvia Atkins@3x.png"; path = "../src/assets/images/avatars/Elvia Atkins@3x.png"; sourceTree = "<group>"; };
+		56CEAE64AC604E72A4321B77 /* Mauricio August@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mauricio August@2x.png"; path = "../src/assets/images/avatars/Mauricio August@2x.png"; sourceTree = "<group>"; };
+		592AC17FCF7D200D46576B4A /* libPods-contacts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-contacts.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B16547E10824D3B92242278 /* Lydia Bauer@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lydia Bauer@2x.png"; path = "../src/assets/images/avatars/Lydia Bauer@2x.png"; sourceTree = "<group>"; };
+		5B94D0C11DD14AECA4C596E5 /* Carlos Slattery@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Carlos Slattery@3x.png"; path = "../src/assets/images/avatars/Carlos Slattery@3x.png"; sourceTree = "<group>"; };
+		5D144DD1C58B4475A1794667 /* Charlotte Waltson@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Charlotte Waltson@3x.png"; path = "../src/assets/images/avatars/Charlotte Waltson@3x.png"; sourceTree = "<group>"; };
+		5EC6355AB34E491A822F4DBC /* Erik Nason@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Erik Nason@3x.png"; path = "../src/assets/images/avatars/Erik Nason@3x.png"; sourceTree = "<group>"; };
+		622EA51BA3664C52B8E05A18 /* Carole-Poland.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Carole-Poland.png"; path = "../src/assets/images/avatars/Carole-Poland.png"; sourceTree = "<group>"; };
+		67363D168DC746629E712FAD /* Cecil Folk@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cecil Folk@3x.png"; path = "../src/assets/images/avatars/Cecil Folk@3x.png"; sourceTree = "<group>"; };
+		6B31145EED1E8DDC552295F0 /* Pods-contacts-contactsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-contacts-contactsTests.release.xcconfig"; path = "Target Support Files/Pods-contacts-contactsTests/Pods-contacts-contactsTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B4CCDE0F405435F983C11CC /* Tim-Deboer.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Tim-Deboer.png"; path = "../src/assets/images/avatars/Tim-Deboer.png"; sourceTree = "<group>"; };
+		7125EF72CD01439996CC07EC /* Kevin Sturgis@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kevin Sturgis@3x.png"; path = "../src/assets/images/avatars/Kevin Sturgis@3x.png"; sourceTree = "<group>"; };
+		7207C498F57A4FD3B8B28AAD /* Robert Tolbert@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Robert Tolbert@3x.png"; path = "../src/assets/images/avatars/Robert Tolbert@3x.png"; sourceTree = "<group>"; };
+		74A07DC02E384A0885FB68D2 /* Pods-contacts-contactsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-contacts-contactsTests.debug.xcconfig"; path = "Target Support Files/Pods-contacts-contactsTests/Pods-contacts-contactsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		771A84EC8802403B892A63AC /* Cecil-Folk.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cecil-Folk.png"; path = "../src/assets/images/avatars/Cecil-Folk.png"; sourceTree = "<group>"; };
+		7A717C765E5E4C03A99232C9 /* Daisy Phillips@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Daisy Phillips@2x.png"; path = "../src/assets/images/avatars/Daisy Phillips@2x.png"; sourceTree = "<group>"; };
+		7FCFD6F1CDF54A5D8F52C230 /* Kat-larsson.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kat-larsson.png"; path = "../src/assets/images/avatars/Kat-larsson.png"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = contacts/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		865B4481E58C44F39A460BBF /* Daisy Phillips@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Daisy Phillips@3x.png"; path = "../src/assets/images/avatars/Daisy Phillips@3x.png"; sourceTree = "<group>"; };
+		8761BB90EF64469E92A2C9B7 /* Kevin-Sturgis.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kevin-Sturgis.png"; path = "../src/assets/images/avatars/Kevin-Sturgis.png"; sourceTree = "<group>"; };
+		8AC70024F4ED43AFACCCC8A6 /* Johnie-McConnell.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Johnie-McConnell.png"; path = "../src/assets/images/avatars/Johnie-McConnell.png"; sourceTree = "<group>"; };
+		8D55232A2E4948B08B8CF24B /* Robin Counts@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Robin Counts@3x.png"; path = "../src/assets/images/avatars/Robin Counts@3x.png"; sourceTree = "<group>"; };
+		9673F14A21A24485B4B7FF3D /* Carlos-Slattery.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Carlos-Slattery.png"; path = "../src/assets/images/avatars/Carlos-Slattery.png"; sourceTree = "<group>"; };
+		97608ED9BC954541B4852FD5 /* Johnie McConnell@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Johnie McConnell@3x.png"; path = "../src/assets/images/avatars/Johnie McConnell@3x.png"; sourceTree = "<group>"; };
+		A3DDB55115DD46DD908444F3 /* Elvia Atkins@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Elvia Atkins@2x.png"; path = "../src/assets/images/avatars/Elvia Atkins@2x.png"; sourceTree = "<group>"; };
+		A6EADFDD4BA649B78706677E /* Miguel-Garcia.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Miguel-Garcia.png"; path = "../src/assets/images/avatars/Miguel-Garcia.png"; sourceTree = "<group>"; };
+		A967DC8C9CE541208F4506E8 /* Katri Ahokas@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Katri Ahokas@3x.png"; path = "../src/assets/images/avatars/Katri Ahokas@3x.png"; sourceTree = "<group>"; };
+		AF30966DD47F44A3A0DC3C65 /* Ashley Mc Carthy@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ashley Mc Carthy@3x.png"; path = "../src/assets/images/avatars/Ashley Mc Carthy@3x.png"; sourceTree = "<group>"; };
+		B36003ABB55C42FA9415D3F6 /* Johnie McConnell@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Johnie McConnell@2x.png"; path = "../src/assets/images/avatars/Johnie McConnell@2x.png"; sourceTree = "<group>"; };
+		B3A172ED3E474424B633F3E8 /* Carole Poland@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Carole Poland@2x.png"; path = "../src/assets/images/avatars/Carole Poland@2x.png"; sourceTree = "<group>"; };
+		B4D6C58AA931421C841B99F4 /* Wanda Howard@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Wanda Howard@2x.png"; path = "../src/assets/images/avatars/Wanda Howard@2x.png"; sourceTree = "<group>"; };
+		B743B065CD89492FBEF03FBC /* Isaac-Fielder.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Isaac-Fielder.png"; path = "../src/assets/images/avatars/Isaac-Fielder.png"; sourceTree = "<group>"; };
+		BA0F6BC290594F90B15E2688 /* Miguel Garcia@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Miguel Garcia@2x.png"; path = "../src/assets/images/avatars/Miguel Garcia@2x.png"; sourceTree = "<group>"; };
+		BFE2D876A1E64C69BA7889C6 /* Robin Counts@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Robin Counts@2x.png"; path = "../src/assets/images/avatars/Robin Counts@2x.png"; sourceTree = "<group>"; };
+		C010891E12F74A47BE7B0263 /* Mona-Kane.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mona-Kane.png"; path = "../src/assets/images/avatars/Mona-Kane.png"; sourceTree = "<group>"; };
+		CC44D50B57FD4070B1104731 /* Kristin-Patterson.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kristin-Patterson.png"; path = "../src/assets/images/avatars/Kristin-Patterson.png"; sourceTree = "<group>"; };
+		CCE3B95D37D24059A9DBAA4D /* Robin-Counts.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Robin-Counts.png"; path = "../src/assets/images/avatars/Robin-Counts.png"; sourceTree = "<group>"; };
+		CE07B81846D94461B4569692 /* Kevin Sturgis@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kevin Sturgis@2x.png"; path = "../src/assets/images/avatars/Kevin Sturgis@2x.png"; sourceTree = "<group>"; };
+		CEA3CB3C73A121A0F01D4D80 /* Pods-contacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-contacts.debug.xcconfig"; path = "Target Support Files/Pods-contacts/Pods-contacts.debug.xcconfig"; sourceTree = "<group>"; };
+		DC536B9339AA49AD80D92CD1 /* Miguel Garcia@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Miguel Garcia@3x.png"; path = "../src/assets/images/avatars/Miguel Garcia@3x.png"; sourceTree = "<group>"; };
+		E3D9BD31EAB945ADA47F356D /* Colin Ballinger@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Colin Ballinger@3x.png"; path = "../src/assets/images/avatars/Colin Ballinger@3x.png"; sourceTree = "<group>"; };
+		E483A6D8A4BD4BC28A70672F /* Carlos Slattery@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Carlos Slattery@2x.png"; path = "../src/assets/images/avatars/Carlos Slattery@2x.png"; sourceTree = "<group>"; };
+		E4EFAFBC40414E5892CDEEAD /* Isaac Fielder@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Isaac Fielder@2x.png"; path = "../src/assets/images/avatars/Isaac Fielder@2x.png"; sourceTree = "<group>"; };
+		E59C325CE486479199B42DAF /* Henry-Brill.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Henry-Brill.png"; path = "../src/assets/images/avatars/Henry-Brill.png"; sourceTree = "<group>"; };
+		E8ADD30247C84A6E9757BF3A /* Wanda Howard@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Wanda Howard@3x.png"; path = "../src/assets/images/avatars/Wanda Howard@3x.png"; sourceTree = "<group>"; };
+		E9418AC70B3143EEA8474398 /* Elliot-Woodward.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Elliot-Woodward.png"; path = "../src/assets/images/avatars/Elliot-Woodward.png"; sourceTree = "<group>"; };
+		EA61B10967DE4928921A6B9B /* Celeste Burton@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Celeste Burton@2x.png"; path = "../src/assets/images/avatars/Celeste Burton@2x.png"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EF68B83DA44F4EE7B6546FED /* Erik-Nason.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Erik-Nason.png"; path = "../src/assets/images/avatars/Erik-Nason.png"; sourceTree = "<group>"; };
+		F3F827667B1C4A7E8E4CAD19 /* Daisy-Phillips.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Daisy-Phillips.png"; path = "../src/assets/images/avatars/Daisy-Phillips.png"; sourceTree = "<group>"; };
+		F40E3A28D7484879AC7A6400 /* Kat larsson@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kat larsson@3x.png"; path = "../src/assets/images/avatars/Kat larsson@3x.png"; sourceTree = "<group>"; };
+		F4127F1A3AA8412598A74591 /* Ashley Mc Carthy@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ashley Mc Carthy@2x.png"; path = "../src/assets/images/avatars/Ashley Mc Carthy@2x.png"; sourceTree = "<group>"; };
+		F56B8E8B54E84ED3ADD0F77F /* Cecil Folk@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cecil Folk@2x.png"; path = "../src/assets/images/avatars/Cecil Folk@2x.png"; sourceTree = "<group>"; };
+		F75F8637CE93427E974AC702 /* Robert Tolbert@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Robert Tolbert@2x.png"; path = "../src/assets/images/avatars/Robert Tolbert@2x.png"; sourceTree = "<group>"; };
+		FC6A26CEC2A54076AFA34ECB /* Mona Kane@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mona Kane@2x.png"; path = "../src/assets/images/avatars/Mona Kane@2x.png"; sourceTree = "<group>"; };
+		FD914F855C0D47C986DEC8BB /* Katri-Ahokas.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Katri-Ahokas.png"; path = "../src/assets/images/avatars/Katri-Ahokas.png"; sourceTree = "<group>"; };
+		FF2022D11D074DC4A29E10A3 /* Robert-Tolbert.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Robert-Tolbert.png"; path = "../src/assets/images/avatars/Robert-Tolbert.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D9CE3388B4D911DC110F4B /* libPods-contacts-contactsTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BB9384B3955976A921A991 /* libPods-contacts.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* contactsTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* contactsTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = contactsTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* contacts */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = contacts;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				592AC17FCF7D200D46576B4A /* libPods-contacts.a */,
+				27D60D2117BA91BBF94B459B /* libPods-contacts-contactsTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B517701542844D794E1497B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				191B75B4B82B44E0B5583F42 /* Allan Munger@2x.png */,
+				0986BF8F8E70497E9EDEA2FE /* Allan Munger@3x.png */,
+				0D8001B1CCE3462B82F1FE22 /* Allan-Munger.png */,
+				2BE499584E374A1B9AB1E15B /* Amanda Brady@2x.png */,
+				3021FC95D7D3449C9D6E9163 /* Amanda Brady@3x.png */,
+				23714F2F47E848E182DFD757 /* Amanda-Brady.png */,
+				F4127F1A3AA8412598A74591 /* Ashley Mc Carthy@2x.png */,
+				AF30966DD47F44A3A0DC3C65 /* Ashley Mc Carthy@3x.png */,
+				2D1E65DD887B499B814F48E9 /* Ashley-Mc-Carthy.png */,
+				E483A6D8A4BD4BC28A70672F /* Carlos Slattery@2x.png */,
+				5B94D0C11DD14AECA4C596E5 /* Carlos Slattery@3x.png */,
+				9673F14A21A24485B4B7FF3D /* Carlos-Slattery.png */,
+				B3A172ED3E474424B633F3E8 /* Carole Poland@2x.png */,
+				50A86CE4D2F047B9973D9C39 /* Carole Poland@3x.png */,
+				622EA51BA3664C52B8E05A18 /* Carole-Poland.png */,
+				F56B8E8B54E84ED3ADD0F77F /* Cecil Folk@2x.png */,
+				67363D168DC746629E712FAD /* Cecil Folk@3x.png */,
+				771A84EC8802403B892A63AC /* Cecil-Folk.png */,
+				EA61B10967DE4928921A6B9B /* Celeste Burton@2x.png */,
+				4DCCFA396ED64834885B8144 /* Celeste Burton@3x.png */,
+				19A7E01F86A44C89927FDE09 /* Celeste-Burton.png */,
+				17B4AD5B3E4846FEAF2AA56F /* Charlotte Waltson@2x.png */,
+				5D144DD1C58B4475A1794667 /* Charlotte Waltson@3x.png */,
+				267C0B459C6D44CB8849D003 /* Charlotte-Waltson.png */,
+				48548F65ECEE411A9F6EB13C /* Colin Ballinger@2x.png */,
+				E3D9BD31EAB945ADA47F356D /* Colin Ballinger@3x.png */,
+				1EF40141C169446691DBBDDC /* Colin-Ballinger.png */,
+				7A717C765E5E4C03A99232C9 /* Daisy Phillips@2x.png */,
+				865B4481E58C44F39A460BBF /* Daisy Phillips@3x.png */,
+				F3F827667B1C4A7E8E4CAD19 /* Daisy-Phillips.png */,
+				4F6ED5C8FE3B4155B0200CEE /* Elliot Woodward@2x.png */,
+				405C3C07BFC14A79ACEC92B9 /* Elliot Woodward@3x.png */,
+				E9418AC70B3143EEA8474398 /* Elliot-Woodward.png */,
+				A3DDB55115DD46DD908444F3 /* Elvia Atkins@2x.png */,
+				55266397DE654B1580453DDB /* Elvia Atkins@3x.png */,
+				3F52567DC1D34B6DB9992E1C /* Elvia-Atkins.png */,
+				07B025F52DAF4A4D9C49A356 /* Erik Nason@2x.png */,
+				5EC6355AB34E491A822F4DBC /* Erik Nason@3x.png */,
+				EF68B83DA44F4EE7B6546FED /* Erik-Nason.png */,
+				31DCCF2BA74D4891A9539107 /* Henry Brill@2x.png */,
+				2CFA7B0C6A234FA8B3A9E411 /* Henry Brill@3x.png */,
+				E59C325CE486479199B42DAF /* Henry-Brill.png */,
+				E4EFAFBC40414E5892CDEEAD /* Isaac Fielder@2x.png */,
+				3BEB624C59EF4748A96603C4 /* Isaac Fielder@3x.png */,
+				B743B065CD89492FBEF03FBC /* Isaac-Fielder.png */,
+				B36003ABB55C42FA9415D3F6 /* Johnie McConnell@2x.png */,
+				97608ED9BC954541B4852FD5 /* Johnie McConnell@3x.png */,
+				8AC70024F4ED43AFACCCC8A6 /* Johnie-McConnell.png */,
+				3FEF778620DB4221A1BD8AA3 /* Kat larsson@2x.png */,
+				F40E3A28D7484879AC7A6400 /* Kat larsson@3x.png */,
+				7FCFD6F1CDF54A5D8F52C230 /* Kat-larsson.png */,
+				33599DF4AC984EEE8235FD7F /* Katri Ahokas@2x.png */,
+				A967DC8C9CE541208F4506E8 /* Katri Ahokas@3x.png */,
+				FD914F855C0D47C986DEC8BB /* Katri-Ahokas.png */,
+				CE07B81846D94461B4569692 /* Kevin Sturgis@2x.png */,
+				7125EF72CD01439996CC07EC /* Kevin Sturgis@3x.png */,
+				8761BB90EF64469E92A2C9B7 /* Kevin-Sturgis.png */,
+				445397381961461BBEF20C40 /* Kristin Patterson@2x.png */,
+				2C3DB390D4DA4FBF9EAAEC8C /* Kristin Patterson@3x.png */,
+				CC44D50B57FD4070B1104731 /* Kristin-Patterson.png */,
+				5B16547E10824D3B92242278 /* Lydia Bauer@2x.png */,
+				07A0F14B41A24FD58FB13501 /* Lydia Bauer@3x.png */,
+				01E20E8E695249F4B9404771 /* Lydia-Bauer.png */,
+				56CEAE64AC604E72A4321B77 /* Mauricio August@2x.png */,
+				1B36DFC7DCD64CAB8E18AFBC /* Mauricio August@3x.png */,
+				4EAF031869644BECAFA49856 /* Mauricio-August.png */,
+				BA0F6BC290594F90B15E2688 /* Miguel Garcia@2x.png */,
+				DC536B9339AA49AD80D92CD1 /* Miguel Garcia@3x.png */,
+				A6EADFDD4BA649B78706677E /* Miguel-Garcia.png */,
+				FC6A26CEC2A54076AFA34ECB /* Mona Kane@2x.png */,
+				4B16B9EAD60B44C09F85FF5E /* Mona Kane@3x.png */,
+				C010891E12F74A47BE7B0263 /* Mona-Kane.png */,
+				F75F8637CE93427E974AC702 /* Robert Tolbert@2x.png */,
+				7207C498F57A4FD3B8B28AAD /* Robert Tolbert@3x.png */,
+				FF2022D11D074DC4A29E10A3 /* Robert-Tolbert.png */,
+				BFE2D876A1E64C69BA7889C6 /* Robin Counts@2x.png */,
+				8D55232A2E4948B08B8CF24B /* Robin Counts@3x.png */,
+				CCE3B95D37D24059A9DBAA4D /* Robin-Counts.png */,
+				39A1AE788B6E4992B1781EE4 /* Tim Deboer@2x.png */,
+				11CABFDE590242DBA93AE6F4 /* Tim Deboer@3x.png */,
+				6B4CCDE0F405435F983C11CC /* Tim-Deboer.png */,
+				B4D6C58AA931421C841B99F4 /* Wanda Howard@2x.png */,
+				E8ADD30247C84A6E9757BF3A /* Wanda Howard@3x.png */,
+				1B07027CE2C940E4B63D89F4 /* Wanda-Howard.png */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* contacts */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* contactsTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				AA39DE8A6EBB565816746DBB /* Pods */,
+				6B517701542844D794E1497B /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* contacts.app */,
+				00E356EE1AD99517003FC87E /* contactsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA39DE8A6EBB565816746DBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3CB3C73A121A0F01D4D80 /* Pods-contacts.debug.xcconfig */,
+				37377FFA16EEF7814197A029 /* Pods-contacts.release.xcconfig */,
+				74A07DC02E384A0885FB68D2 /* Pods-contacts-contactsTests.debug.xcconfig */,
+				6B31145EED1E8DDC552295F0 /* Pods-contacts-contactsTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* contactsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "contactsTests" */;
+			buildPhases = (
+				17A32295BE4C9A85563FDBB4 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				3B108B7B481086414F431537 /* [CP] Embed Pods Frameworks */,
+				869BB43F572933540D1EB065 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = contactsTests;
+			productName = contactsTests;
+			productReference = 00E356EE1AD99517003FC87E /* contactsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* contacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "contacts" */;
+			buildPhases = (
+				A3CE650B7A5CE1DE522500B2 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				ABA2290597DB474A38D6EC32 /* [CP] Embed Pods Frameworks */,
+				A762448C2838CD43B1FE2D68 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = contacts;
+			productName = contacts;
+			productReference = 13B07F961A680F5B00A75B9A /* contacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "contacts" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* contacts */,
+				00E356ED1AD99517003FC87E /* contactsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				A078B949E1204D7BB6D68783 /* Allan Munger@2x.png in Resources */,
+				4BB79CC0B6744AC89B37E1DB /* Allan Munger@3x.png in Resources */,
+				ECCBA6740D7E47D3A5E1F80B /* Allan-Munger.png in Resources */,
+				1E2B7F25E6364413BEF872CC /* Amanda Brady@2x.png in Resources */,
+				5A71E57F77B445549A5C41A9 /* Amanda Brady@3x.png in Resources */,
+				3A20B34CB0634303B41E3A6E /* Amanda-Brady.png in Resources */,
+				0B3D6BE1379040F6B92F5A7A /* Ashley Mc Carthy@2x.png in Resources */,
+				DE481E2EA14C4AFC9D0A2371 /* Ashley Mc Carthy@3x.png in Resources */,
+				2F412500A55944978C3FFF28 /* Ashley-Mc-Carthy.png in Resources */,
+				4DA82E39ACB04A4FB038A935 /* Carlos Slattery@2x.png in Resources */,
+				2527C4B862564343BD5730E3 /* Carlos Slattery@3x.png in Resources */,
+				4FFE9C84FABD4C349599170A /* Carlos-Slattery.png in Resources */,
+				1FD9EC6AE2094284ACC49CF3 /* Carole Poland@2x.png in Resources */,
+				FB3F5713C40F49CD9F212431 /* Carole Poland@3x.png in Resources */,
+				636B32D87E43429A9F7E208D /* Carole-Poland.png in Resources */,
+				6ABD9FBC100B48E4AA5260CF /* Cecil Folk@2x.png in Resources */,
+				4376426C052C418693909647 /* Cecil Folk@3x.png in Resources */,
+				8B6B852A0CE841D892DF365A /* Cecil-Folk.png in Resources */,
+				1D28FA2C87864D569FDF25EA /* Celeste Burton@2x.png in Resources */,
+				59D118C06C954273A8DA56DB /* Celeste Burton@3x.png in Resources */,
+				26C9763338F54271B0F798C2 /* Celeste-Burton.png in Resources */,
+				AEA4061C01F84A66BE9870E0 /* Charlotte Waltson@2x.png in Resources */,
+				7C4114DC013749839B0933BD /* Charlotte Waltson@3x.png in Resources */,
+				C3AA4A9419954F3AB86816BB /* Charlotte-Waltson.png in Resources */,
+				03F259ED46344B18899B5DFC /* Colin Ballinger@2x.png in Resources */,
+				42CB4673B3F84EAEBB2F8164 /* Colin Ballinger@3x.png in Resources */,
+				6A142E08F5464A3A8C3852D7 /* Colin-Ballinger.png in Resources */,
+				C61831BCB1B74AAEA8214D75 /* Daisy Phillips@2x.png in Resources */,
+				668C4CAEF72E46A6994C9FEA /* Daisy Phillips@3x.png in Resources */,
+				CA02F96CD0864CD4911FA60D /* Daisy-Phillips.png in Resources */,
+				4581C1F8F4D641D4903ADA3F /* Elliot Woodward@2x.png in Resources */,
+				E0BFE984232046ACB310B779 /* Elliot Woodward@3x.png in Resources */,
+				A5B80C4D66B24A209EEDB864 /* Elliot-Woodward.png in Resources */,
+				2AF9E90BF5CB4EF58B8F92C0 /* Elvia Atkins@2x.png in Resources */,
+				C48E0274C000461E99F72171 /* Elvia Atkins@3x.png in Resources */,
+				3965EC69991F42FD905A4C54 /* Elvia-Atkins.png in Resources */,
+				05C1B72B08B44287A1E5EAFC /* Erik Nason@2x.png in Resources */,
+				A61C7428106E43E1A81EF520 /* Erik Nason@3x.png in Resources */,
+				00F878B0C940477CB5632131 /* Erik-Nason.png in Resources */,
+				F0F9656E9FF5404987E94175 /* Henry Brill@2x.png in Resources */,
+				13A667989ADF4095A5D17549 /* Henry Brill@3x.png in Resources */,
+				F8E5FBDEF56D4D7892C6782D /* Henry-Brill.png in Resources */,
+				DBE9640F789C41B2B5327674 /* Isaac Fielder@2x.png in Resources */,
+				47DA9465F893427DB0337563 /* Isaac Fielder@3x.png in Resources */,
+				22764915E01B42249AF0A2E0 /* Isaac-Fielder.png in Resources */,
+				8894424517F648F3B3D930CE /* Johnie McConnell@2x.png in Resources */,
+				A0D199135A6143E1A3B2D53E /* Johnie McConnell@3x.png in Resources */,
+				D8D4E67617234D19B32E0878 /* Johnie-McConnell.png in Resources */,
+				851956A016014819B35A11EC /* Kat larsson@2x.png in Resources */,
+				2FC1182EAE2A4E22A37E64AF /* Kat larsson@3x.png in Resources */,
+				C9AC1B5FF695483A9D1A87CB /* Kat-larsson.png in Resources */,
+				F4626C39F9B4493BA64E649C /* Katri Ahokas@2x.png in Resources */,
+				D39A3A7A7DD14E7A95681D5B /* Katri Ahokas@3x.png in Resources */,
+				202CB1E6948A4795825AFA3E /* Katri-Ahokas.png in Resources */,
+				62F39EA392F04C87B891870C /* Kevin Sturgis@2x.png in Resources */,
+				5D935698EDAD45E486A681FE /* Kevin Sturgis@3x.png in Resources */,
+				6FC06E5A2EB04E018EDB5D60 /* Kevin-Sturgis.png in Resources */,
+				73291269453A44FA8FDE9FB7 /* Kristin Patterson@2x.png in Resources */,
+				B7B8F7ACD9C94A2EAB1DF874 /* Kristin Patterson@3x.png in Resources */,
+				43173B9EDA484C04A212E559 /* Kristin-Patterson.png in Resources */,
+				5C596F0637C54AD7B0116310 /* Lydia Bauer@2x.png in Resources */,
+				FAB2F067B14B4C138574C75C /* Lydia Bauer@3x.png in Resources */,
+				13A81C38ECF94C6CACAA797E /* Lydia-Bauer.png in Resources */,
+				341F8E6163324481BAFA9E7A /* Mauricio August@2x.png in Resources */,
+				2905BD32B667471B875796EC /* Mauricio August@3x.png in Resources */,
+				06C98192B1954310845674B9 /* Mauricio-August.png in Resources */,
+				EBD153C8A89A4B47AAB6C3A1 /* Miguel Garcia@2x.png in Resources */,
+				F5BA2C58D8384CC1AD255B92 /* Miguel Garcia@3x.png in Resources */,
+				90ABFCEE19C3476784E1F7A7 /* Miguel-Garcia.png in Resources */,
+				44210EEF966F4D849D617907 /* Mona Kane@2x.png in Resources */,
+				B2A182058CCA44A69368AE62 /* Mona Kane@3x.png in Resources */,
+				52D2413E48044593A637B2A3 /* Mona-Kane.png in Resources */,
+				E57F55431170437CB859C354 /* Robert Tolbert@2x.png in Resources */,
+				C9445890C1C447D2A402E087 /* Robert Tolbert@3x.png in Resources */,
+				F5D96B247389468A94F3E0CE /* Robert-Tolbert.png in Resources */,
+				35026DB46A284E849DB63238 /* Robin Counts@2x.png in Resources */,
+				62E0D9115F144DCC9F18CFDD /* Robin Counts@3x.png in Resources */,
+				4F6A109AA7B94C8C8C191E49 /* Robin-Counts.png in Resources */,
+				B0758A3E73F34A8F8924B951 /* Tim Deboer@2x.png in Resources */,
+				6894859290AA4759B2E073EB /* Tim Deboer@3x.png in Resources */,
+				2AC557934887405A9BD9BA2C /* Tim-Deboer.png in Resources */,
+				15B921DF13EF494A9941670A /* Wanda Howard@2x.png in Resources */,
+				7BD44FD8CED0467186A75825 /* Wanda Howard@3x.png in Resources */,
+				DA9DDB00DC594330B6866450 /* Wanda-Howard.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		17A32295BE4C9A85563FDBB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-contacts-contactsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B108B7B481086414F431537 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-contacts-contactsTests/Pods-contacts-contactsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-contacts-contactsTests/Pods-contacts-contactsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-contacts-contactsTests/Pods-contacts-contactsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		869BB43F572933540D1EB065 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-contacts-contactsTests/Pods-contacts-contactsTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-contacts-contactsTests/Pods-contacts-contactsTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-contacts-contactsTests/Pods-contacts-contactsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3CE650B7A5CE1DE522500B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-contacts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A762448C2838CD43B1FE2D68 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-contacts/Pods-contacts-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-contacts/Pods-contacts-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-contacts/Pods-contacts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABA2290597DB474A38D6EC32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-contacts/Pods-contacts-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-contacts/Pods-contacts-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-contacts/Pods-contacts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* contactsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* contacts */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74A07DC02E384A0885FB68D2 /* Pods-contacts-contactsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = contactsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/contacts.app/contacts";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B31145EED1E8DDC552295F0 /* Pods-contacts-contactsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = contactsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/contacts.app/contacts";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEA3CB3C73A121A0F01D4D80 /* Pods-contacts.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = contacts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = contacts;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37377FFA16EEF7814197A029 /* Pods-contacts.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = contacts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = contacts;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "contactsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "contacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "contacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
